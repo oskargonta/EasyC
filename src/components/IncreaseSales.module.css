@@ -1,0 +1,44 @@
+.settingsBlack24dp1Icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.automatyzacjaPracy {
+  align-self: stretch;
+  position: relative;
+}
+.zmianaCenI {
+  width: 357px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22px;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.increaseSales,
+.oneContract {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.oneContract {
+  align-self: stretch;
+  gap: 8px 0;
+}
+.increaseSales {
+  width: 357px;
+  gap: 12px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-noto-sans);
+}
+@media screen and (max-width: 450px) {
+  .automatyzacjaPracy {
+    font-size: var(--font-size-base);
+  }
+}

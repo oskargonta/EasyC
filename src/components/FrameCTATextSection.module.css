@@ -1,0 +1,139 @@
+.groupIcon,
+.groupIcon1 {
+  height: 23.6px;
+  width: 23.6px;
+  position: relative;
+  min-height: 24px;
+}
+.groupIcon1 {
+  height: 24px;
+  width: 141.4px;
+}
+.frameCombinedLogoTextButto {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 9.6px;
+}
+.naWieluPortalach,
+.nieMaszCzasu {
+  margin: 0;
+}
+.nieMaszCzasuContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.easychannelToRozwizanie {
+  width: 548px;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+}
+.odezwijSiDoNas {
+  position: relative;
+  font-weight: 500;
+}
+.emailBlack24dp1Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.supporteasychannelpl {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.frameLinkedTextButtonPress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 4px;
+  color: var(--w-background);
+}
+.frameTextWithPressMeButto {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 8px;
+  max-width: 100%;
+  text-align: left;
+}
+.framedPictureLabelRegionWi {
+  gap: 32px 0;
+  font-size: var(--font-size-mini);
+  color: var(--color-lightsteelblue);
+}
+.frameCTATextSection,
+.framedPictureLabelRegionWi,
+.interactiveRegionWithCTA,
+.logoAndTextCTAFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.interactiveRegionWithCTA {
+  gap: 24px 0;
+}
+.frameCTATextSection,
+.logoAndTextCTAFrame {
+  box-sizing: border-box;
+}
+.logoAndTextCTAFrame {
+  width: 1120px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslategray-200);
+  padding: var(--padding-61xl) 0;
+  gap: 24px 0;
+}
+.frameCTATextSection {
+  align-self: stretch;
+  padding: var(--padding-101xl) var(--padding-xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-18xl);
+  color: var(--w-background);
+  font-family: var(--font-noto-sans);
+}
+@media screen and (max-width: 1025px) {
+  .nieMaszCzasuContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .framedPictureLabelRegionWi {
+    gap: 32px 0;
+  }
+  .frameCTATextSection {
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nieMaszCzasuContainer {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .frameTextWithPressMeButto {
+    flex-wrap: wrap;
+  }
+  .logoAndTextCTAFrame {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}

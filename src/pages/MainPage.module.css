@@ -1,0 +1,68 @@
+.mainPageChild {
+  width: 242px;
+  height: 40px;
+  display: none;
+  z-index: 5;
+}
+
+.cTAFrameSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.combinedPressMeTextButton,
+.mainPage {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.combinedPressMeTextButton {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  max-width: 100%;
+}
+.mainPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--w-background);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-123xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-noto-sans);
+}
+@media screen and (max-width: 1125px) {
+  .headerFrame {
+    max-width: calc(100% - 3px);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .naszeIntegracjeZ {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+  }
+  .headerFrame {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .logosFrame {
+    gap: 40px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .naszeIntegracjeZ {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+}

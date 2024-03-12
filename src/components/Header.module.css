@@ -1,0 +1,119 @@
+.groupIcon,
+.groupIcon1 {
+  height: 19.6px;
+  width: 19.6px;
+  position: relative;
+  min-height: 20px;
+}
+.groupIcon1 {
+  height: 20px;
+  width: 117.8px;
+}
+.frameFocusOnline,
+.frameFocusOnlineWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameFocusOnline {
+  align-items: flex-start;
+  gap: 0 8px;
+}
+.frameFocusOnlineWrapper {
+  align-items: center;
+}
+.frameGroupSettings {
+  height: 40px;
+  width: 101px;
+}
+.zalogujSi {
+  position: relative;
+  font-weight: 600;
+}
+.frameGroupLogos {
+  height: 40px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-goldenrod);
+  box-shadow: 0 4px 20px rgba(34, 32, 28, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.frameGroupSettings1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleShape,
+.textFrameLogo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleShape {
+  flex: 1;
+  background-color: var(--color-darkslategray-200);
+  box-shadow: 0 4px 10px rgba(34, 32, 28, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-70xl) var(--padding-5xl)
+    var(--padding-141xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans);
+}
+.textFrameLogo {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-123xl) 0;
+}
+.zarejstrujSi {
+  font-size: var(--font-size-smi);
+  font-weight: 600;
+}
+.textLabel {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs);
+  background-color: var(--color-goldenrod);
+  width: 101px;
+  margin: 0 !important;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 20px rgba(34, 32, 28, 0.12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.textLabel:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+
+@media screen and (max-width: 750px) {
+  .rectangleShape {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleShape {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,12 @@
+{/* <div className={styles.frameLogoCarousel} /> */}
+          <div className="form">
+
+          <button className={styles.textLabel}>
+            <div className={styles.zarejstrujSi}>Zarejstruj się</div>
+          </button>
+
+          
+
+
+                    
+          </div>

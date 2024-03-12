@@ -1,0 +1,276 @@
+.jakToDziaa {
+  align-self: flex-start;
+  margin: 0;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #ffffff; 
+  position: relative;
+  /* left: 36%; */
+}
+.SpecialDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* text-align: center; */
+}
+
+.jakToDziaa,
+.scheduleBlackdp {
+  position: relative;
+}
+.webBlackdp {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skontaktujSiZNami {
+  align-self: stretch;
+  position: relative;
+}
+.udostpniamyObiektyNa {
+  width: 263px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22px;
+  color: var(--color-lightsteelblue);
+  display: inline-block;
+}
+.signalCellularAltBlackdp,
+.todayBlackdp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.todayBlackdp {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--font-size-xl);
+  color: var(--w-background);
+}
+.signalCellularAltBlackdp {
+  flex: 1;
+  gap: 16px 0;
+  min-width: 205px;
+  max-width: 263px;
+}
+.b {
+  position: relative;
+}
+.wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.zaKonto {
+  align-self: stretch;
+  position: relative;
+}
+.wprowadDaneSwoichObiektw,
+.zdjciaOpisyCeny {
+  margin: 0;
+}
+.wprowadDaneSwoichObiektwContainer {
+  width: 262px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22px;
+  color: var(--color-lightsteelblue);
+  display: inline-block;
+}
+.signalCellularAltBlackdp1,
+.zaKontoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.zaKontoParent {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--font-size-xl);
+  color: var(--w-background);
+}
+.signalCellularAltBlackdp1 {
+  flex: 1;
+  gap: 16px 0;
+  min-width: 205px;
+  max-width: 262px;
+}
+.b1 {
+  position: relative;
+}
+.container {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.zarzdzajRezerwacjami {
+  align-self: stretch;
+  position: relative;
+}
+.automatycznieGenerowanePotwi {
+  width: 261px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22px;
+  color: var(--color-lightsteelblue);
+  display: inline-block;
+}
+.signalCellularAltBlackdp2,
+.zarzdzajRezerwacjamiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.zarzdzajRezerwacjamiParent {
+  align-self: stretch;
+  gap: 8px 0;
+  font-size: var(--font-size-xl);
+  color: var(--w-background);
+}
+.signalCellularAltBlackdp2 {
+  flex: 1;
+  gap: 16px 0;
+  min-width: 205px;
+  max-width: 261px;
+}
+.b2 {
+  position: relative;
+}
+.frame {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.staaNiskaProwizja {
+  align-self: stretch;
+  position: relative;
+}
+.prowizjaOdRezerwacji {
+  width: 262px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 22px;
+  color: var(--color-lightsteelblue);
+  display: inline-block;
+}
+.staaNiskaProwizjaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px 0;
+  font-size: var(--font-size-xl);
+  color: var(--w-background);
+}
+.signalCellularAltBlackdp3 {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px 0;
+  min-width: 205px;
+  max-width: 262px;
+}
+.button,
+.callToAction,
+.settingsSection,
+.signalCellularAltBlackdp3 {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.settingsSection {
+    /* align-items: center; */
+  /* justify-content: center; */
+  /* align-self: stretch; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.button,
+.callToAction {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callToAction {
+  flex: 1;
+  background-color: var(--color-darkslategray-200);
+  flex-direction: column;
+  padding: var(--padding-101xl) var(--padding-141xl);
+  gap: 60px 0;
+    align-items: center;
+  justify-content: center;
+}
+.button {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-101xl) 0;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--w-background);
+  font-family: var(--font-noto-sans);
+}
+
+@media screen and (max-width: 1025px) {
+  .jakToDziaa {
+    font-size: var(--font-size-11xl);
+    line-height: 40px;
+    
+  }
+}
+@media screen and (max-width: 750px) {
+  .callToAction {
+    gap: 60px 0;
+    padding: var(--padding-59xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .button {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jakToDziaa {
+    font-size: var(--font-size-3xl);
+    line-height: 10px;
+    
+  }
+  .skontaktujSiZNami,
+  .staaNiskaProwizja,
+  .zaKonto,
+  .zarzdzajRezerwacjami {
+    font-size: var(--font-size-base);
+  }
+  .callToAction {
+    gap: 60px 0;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
